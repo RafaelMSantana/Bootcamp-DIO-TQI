@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Play&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(184, 135, 11, 0.795);
+}
+
+h1 {
+    font-family: 'Play', sans-serif;
+    font-size: 35px;
+
+}
+
+button {
+    border: 1px solid rgb(18, 58, 83);
+    border-radius: 5px;
+    background-color: rgb(227, 248, 255);
+    color: rgb(29, 62, 83);
+    text-align: center;
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+.task-item {
+    font-family: 'Caveat', sans-serif;
+    font-size: 30px;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}

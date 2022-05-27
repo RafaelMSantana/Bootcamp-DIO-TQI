@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Rajdhani&display=swap');
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(56, 55, 55, 0.349)
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(75, 14, 75);
+    background-color: rgb(195, 240, 149);
+    color:rgba(15, 15, 15, 0.61);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 26pt;
+}
