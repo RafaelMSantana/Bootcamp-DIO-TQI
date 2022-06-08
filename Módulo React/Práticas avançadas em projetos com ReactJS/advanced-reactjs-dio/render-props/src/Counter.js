@@ -1,10 +1,10 @@
-import React, { Component }from "react";
+import React, { Component } from "react";
 
 class Counter extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            count:0
+            count: 0
         }
     }
 
@@ -24,8 +24,20 @@ class Counter extends Component {
 
     render () {
         const {  render  } = this.props
-        const { decrement, increment, count} = this.state
+        const { count } = this.state
 
-        return 
+        return (
+            <div>
+                {
+                    render({
+                        increment:this.increment,
+                        decrement:this.decrement,
+                        count
+                    })
+                }
+            </div>
+        )
     }
 }
+
+export default Counter
