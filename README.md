@@ -1,2 +1,2 @@
 # Bootcamp DIO TQI
- Bootcamp Fullstack Developer - HTML, CSS3, JavaScript, ReactJS, SQL, Java, Spring e QA
+ Bootcamp Fullstack Developer - módulos HTML, CSS3, JavaScript e ReactJS
